@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source env/bin/activate
+#source env/bin/activate
 
 LAYERS=`flowmaps-data population list | sed 1d`
 FORMAT=parquet
